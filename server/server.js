@@ -11,7 +11,7 @@ require("dotenv").config();
 //app
 const app=express();
 
-//db             process.env.DATABASE
+//db             process.env.DATABASE mongodb://127.0.0.1:27017/ecom-udemy  mongodb+srv://kattarohith:13062000@cluster0.hku3dcr.mongodb.net/ecom-udemy
 mongoose.connect("mongodb+srv://kattarohith:13062000@cluster0.hku3dcr.mongodb.net/ecom-udemy",{
     useNewUrlParser:true,
 })
