@@ -1,0 +1,13 @@
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+  }
+
+.slider img {
+  height:450px;
+  object-fit: cover;
+}
+
+.card-img {
+  height:450px;
+  object-fit: cover;
+}
